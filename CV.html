@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                 box-sizing: border-box;
+            }
+            header{
+                background-color: #666;
+                padding: 30px;
+                color: white;
+            }
+        #ss{
+            border-radius: 50px;
+            float: left;
+            width: 100px;
+            height: 100px;
+            padding: 10px 10px;
+        }
+        #p{
+            padding: 15px 15px;
+            font-size: 30px;
+        }
+        nav{
+            float: left;
+            width: 20%;
+            height: 500px; 
+            background: #ccc;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li{
+            padding-bottom: 5px;
+        }
+        nav img{
+            width: 20px;
+            height: 20px;
+            padding-right:5px;
+            vertical-align: middle;
+        }
+        nav p{
+            background-color: slategray;
+            text-align: center;
+        }
+        article{
+                float: left;
+                padding: 20px;
+                width: 80%;
+                background-color: #f1f1f1;
+                height: 500px;
+        }
+        .c{
+            text-align: center;
+            background-color: slategray;
+            margin-left: 10px;
+            
+        }
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+                }
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        </style>
+       
+    </head>
+    <body>
+        <header>
+            <img src="momen1.jpeg" id="ss">
+            <p id="p">Moamen Nasser Asad Rashed</p>
+            <p style="padding-left:10px ;">Study Communication and Electronic Engineering at Shoubra Faculty</p>
+        </header>
+        <nav>
+            <p>General Information</p>
+            <ul>
+                <li><img src="location.png">Kafr Ash Shubak, Shibin AL Qanater</li>
+                <li><img src="phone.png">+20 1012826462</li>
+                <li><img src="message.png">momenrashed2200@gmail.com</li>
+            </ul>
+            <p>Languages</p>
+            <ul>
+                <li>Arabic(Advanced)</li>
+                <li>English(Advanced)</li>
+                <li>German(Medium)</li>
+            </ul>
+        <section>
+            </nav>
+            <article>
+            <h2>Educational Qualifications</h2>
+            <p>High School certificate-Shebin El Qanater Secndary School 2019</p>
+            <p>Studying for a Bachelor of Engineering, Department of Communications-Shoubra Faculty</p>
+            <hr>
+            <h2>Skills</h2>
+            <ul>
+                <li>Use desktop software</li>
+                <li>C Programming</li>
+                <li>Web (Html,Css,Java Script)</li>
+                <li>Using Photoshop programs</li>
+            </ul>
+            <hr>
+            <h2>Interests and hobbies</h2>
+                <ul>
+                    <li>Reading</li>
+                    <li>Sports</li>
+                    <li>Travel</li>
+                </ul>
+        </article>
+    </section>
+    <footer>
+        <h1>Section : 5</h1>
+    </footer>
+    </body>
+</html>
